@@ -10,8 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//静态控制器
+Route::get('/', 'StaticPagesController@home')->name('home');
+Route::get('/help', 'StaticPagesController@help')->name('help');
+Route::get('/about', 'StaticPagesController@about')->name('about');
 
-Route::get('/', 'StaticPagesController@home');
-Route::get('/help', 'StaticPagesController@help');
-Route::get('/about', 'StaticPagesController@about');
-
+// 注册 用户控制器
+Route::get('signup', 'UsersController@create')->name('signup');
