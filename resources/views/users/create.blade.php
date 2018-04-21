@@ -1,3 +1,4 @@
+
 @extends('layouts.default')
 @section('title', '注册')
 
@@ -39,3 +40,6 @@
   </div>
 </div>
 @stop
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/login.js"></script>
+<script type="text/javascript" src="/js/canvas-particle.js"></script>

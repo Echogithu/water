@@ -5,9 +5,7 @@
     <title>@yield('title', 'Water App') - 水质监测系统</title>
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/js/app.js">
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/login.js"></script>
-    <script type="text/javascript" src="/js/canvas-particle.js"></script>
+
   </head>
   <body>
     <!-- 头部Begin -->
